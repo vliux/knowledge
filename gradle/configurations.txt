@@ -1,0 +1,21 @@
+Gradle Experiment Summary
+
+1. How customized dependency configuration takes effective?
+configurations {
+    // define my configuration
+    providedCompile
+}
+
+dependencies {
+    compile ...
+    providedCompile ...
+}
+
+sourceSets {
+    main {
+        // add providedCompile dependencies into compile classpath
+        // so build can pass, while generated POM doesn't contain those dependencies
+        compileClasspath += configurations.providedCompile
+        ...
+    }
+}
