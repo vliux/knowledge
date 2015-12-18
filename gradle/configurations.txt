@@ -19,3 +19,9 @@ sourceSets {
         ...
     }
 }
+
+2. Exclude specified artifact from dependencies
+configurations {
+    // exclude it in dependencies doesn't work, so we have to define the logic here
+    all*.exclude group:'com.taobao.android', module:'utdid4all'
+}
