@@ -25,3 +25,9 @@ configurations {
     // exclude it in dependencies doesn't work, so we have to define the logic here
     all*.exclude group:'com.taobao.android', module:'utdid4all'
 }
+
+2. Use gradle wrapper instead of local installed gradle.
+
+3. Set project name in settings.gradle:
+rootProject.name = '<root project name>'
+project(':subproj').name = '<subproject name>'
