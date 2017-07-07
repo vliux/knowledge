@@ -1,0 +1,49 @@
+What is KG?
+semantic networks
+ontology
+web
+the semantic web
+linked data
+knowledge graph
+
+知识库项目
+CYC （OpenCyc) 形式化的谓词逻辑
+WordNet 词义消歧，定义了名次、动词、形容词、副词之间的语翼关系。
+ConceptNet (OMCS) 常识知识库
+FreeBase MetaWeb公司，Google收购
+WikiData Wiki基金会 CC0万全自由许可协议
+DBPedia 语义项目，从WikiPedia抽取出来的链接数据集合。
+YAGO 
+BabelNet 解决WordNet在非英语中数据缺乏的问题
+NELL 从web自动挖掘三元组知识
+conceptGraph 微软，开放，概念和概念之间的IsA关系
+Zhishi.me 中文常识图谱
+CN-DBPedia 复旦
+
+知识图谱的技术体系(KG DATA)
+知识问答 知识表示 知识抽取 知识链接 知识众包 可视化 语义搜索
+
+OneM2M 传感器
+WikiData 众包
+KBP 文本
+D2R 结构化数据库
+
+什么是知识表示
+模拟人的心智－符号派－知识表示－知识图谱
+模拟脑的结构－连接派－神经网络－深度学习
+
+基于数理逻辑的知识表示－》基于向量空间学习的分布式知识表示
+
+Tom Gruber - founder of Siri
+
+RD,OWL
+
+SPA
+JSON-LD 数据交换格式
+RDFa, HTML5 MicroData 在网页中嵌入语义数据
+
+典型工具
+DeepDive
+
+schema.org
+
